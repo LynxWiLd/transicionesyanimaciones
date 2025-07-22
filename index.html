@@ -12,7 +12,9 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-          <a class="navbar-brand logo-empresa" href="./index.html">Transiciones y Animaciones</a>
+          <a class="navbar-brand logo-empresa" href="./index.html"
+            >Transiciones y Animaciones</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -59,8 +61,44 @@
       </nav>
     </header>
 
-    <main class="flex-grow-1"></main>
-    
-    <footer></footer>
+    <main class="flex-grow-1 container">
+      <h1 class="text-center">Practica de transciones y animaciones</h1>
+      <section class="my-4">
+        <article>
+          <h2>Transicion con Css</h2>
+          <p class="lead">
+            Permiten cambiar suavemente una propiedad CSS de un estado a otro
+            durante un período de tiempo
+          </p>
+          <h3>Propiedades de las transiciones</h3>
+          <ul>
+            <li>transition-property: Define qué propiedad cambiar</li>
+            <li>
+              transition-duration: Define la duración del cambio. (s o ms)
+            </li>
+            <li>
+              transition-timing-function: Controla la aceleración o
+              desaceleración.
+              <ul>
+                <li>linear → Velocidad constante.</li>
+                <li>
+                  ease (por defecto) → Comienza lenta, acelera y luego
+                  desacelera.
+                </li>
+                <li>ease-in → Comienza lenta y acelera.</li>
+                <li>ease-out → Comienza rápida y desacelera.</li>
+                <li>ease-in-out → Comienza y termina lenta</li>
+              </ul>
+            </li>
+
+            <li>transition-delay: Retrasa el inicio de la transición.</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer class="bg-dark-subtle text-center text-lg-start py-4">
+      <p>&copy;Todos los derechos reservados</p>
+    </footer>
   </body>
 </html>
