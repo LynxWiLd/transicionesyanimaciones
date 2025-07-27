@@ -3,4 +3,10 @@
   background-color: tomato;
   width: 200px;
   height: 200px;
+  transition: 800ms;
+  transition-timing-function: linear;
+}
+.item:hover {
+  background-color: blue;
+  transition: 800ms;
 }
